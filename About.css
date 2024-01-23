@@ -1,0 +1,93 @@
+body{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right,#06beb6,#48b1bf);
+}
+
+.box{
+    color: rgb(18, 17, 17);
+    background-color: white;
+    display: flex;
+    width: 70%;
+    margin: 200px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgb(0,0,0,.1);
+    animation: transition 1s;
+    cursor: pointer;
+}
+
+.box p:hover{
+    transition: ease-out 1s;
+}
+
+@keyframes transition {
+    from{
+        opacity: 0;
+        transform: rotateX('-10deg');
+    }
+    to{
+       opacity: 1;
+       transform: rotateX('0');
+    }
+}
+
+.box p{
+    font-size: large;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    margin-left: 45%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.back{
+    display: flex;
+    margin-left: 50px;
+    margin-top: -36%;
+    font-size: xxx-large;
+}
+
+.forth{
+    display: flex;
+    margin-left: 90%;
+    margin-top: -2%;
+    font-size: xxx-large;
+}
+
+a{
+    text-decoration: none;
+}
+
+a i{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 786px){
+    .box{
+        color: rgb(18, 17, 17);
+        background-color: white;
+        display: flex;
+        width: 75%;
+        margin: 200px;
+        margin-left: 15%;
+        margin-top: 50px;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgb(0,0,0,.1);
+        animation: transition 1s;
+        cursor: pointer;
+    }
+
+    .box p{
+        font-size: 14.5px;
+    }
+       
+}

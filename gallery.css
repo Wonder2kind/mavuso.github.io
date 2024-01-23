@@ -1,0 +1,29 @@
+body{
+    font-family: 'Exo 2', sans-serif;
+    color: whitesmoke;
+    background-image: linear-gradient(to right,#29323c,#485563
+    );
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20%;
+    padding: 20%;
+}
+
+.back{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-top: -26%;
+    font-size: xxx-large;
+}
+
+.back a{
+    text-decoration: none;
+}
+
+.back i{
+    color: whitesmoke;
+}
